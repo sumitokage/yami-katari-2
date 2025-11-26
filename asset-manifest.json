@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yami-katari/static/css/main.818df080.css",
+    "main.js": "/yami-katari/static/js/main.7cdd6cfd.js",
+    "index.html": "/yami-katari/index.html",
+    "main.818df080.css.map": "/yami-katari/static/css/main.818df080.css.map",
+    "main.7cdd6cfd.js.map": "/yami-katari/static/js/main.7cdd6cfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.818df080.css",
+    "static/js/main.7cdd6cfd.js"
+  ]
+}
