@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BookOpen, RefreshCw, Clock, List, Settings, Plus, Edit2, Trash2, X, Save } from 'lucide-react';
+import { BookOpen, RefreshCw, Clock, List, Settings, Plus, Edit2, Trash2, Save } from 'lucide-react';
 
 export default function App() {
   const [genre, setGenre] = useState('人怖');
@@ -54,32 +54,28 @@ export default function App() {
   const defaultStories = {
     '人怖-1000': [
       {
-        title: '最終電車',
-        content: '深夜0時過ぎ、最終電車に滑り込んだ。車内には疲れた顔のサラリーマンが数人。隣の席に座っていた男性が、小声で話しかけてきた。\n\n「あなた、毎日この電車ですよね」\n\n確かに最近残業続きで、この時間の電車によく乗る。でも、この人に覚えがない。\n\n「いつも見てるんです。あなたの後ろに立っている、あの女性も一緒に」\n\n背筋が凍った。振り返ろうとした瞬間、男性は次の駅で降りていった。\n\n電車のドアが閉まる。窓ガラスに映る自分の姿の後ろに、白い服を着た女性がぼんやりと立っていた。\n\nその日から、私は電車を使うのをやめた。でも、バスの窓にも、タクシーのミラーにも、彼女の姿が映り込むようになった。\n\n移動手段を変えても、彼女はついてくる。いつから、なぜ、どうして。\n\n答えは分からない。ただ一つ確かなのは、もう私は一人ではないということだ。'
-      },
-      {
-        title: '隣人',
-        content: '引っ越してきて三ヶ月。隣の部屋の住人とは一度も会ったことがない。\n\n管理人に聞くと「ああ、305号室ね。静かな方ですよ」と言うだけ。\n\nある日、宅配便の誤配で隣の荷物を預かった。インターホンを押すが反応がない。ドアポストに「お預かりしています」とメモを入れた。\n\n次の日の朝、ドアの前に「ありがとうございました」というメモと一緒に、お礼の菓子折りが置いてあった。\n\nそれから毎日、何かしらの贈り物がドアの前に置かれるようになった。手作りのクッキー、季節の花、本。どれも私の好みにぴったりだった。\n\n気味が悪くなり、管理人に相談した。「305号室ですか？ あそこ、五年前から空き部屋ですよ」\n\nその夜、隣の部屋から物音がした。壁を隔てて、誰かが囁いている。\n\n「もっと、もっと喜んでほしいな」'
-      }
+        title: '笑う影',
+        content:'夜勤明け、マンションの非常階段を降りていると、後ろから足音がついてきた。\n\n深夜のような静けさで、階段の金属が乾いた音を返す。\n\n五階から四階へ、四階から三階へ。\n\n振り返っても誰もいないのに、足音だけが一段遅れてついてくる。 \n\n二階に着いたとき、背中の後ろ、数十センチの距離で、誰かの呼吸がした。\n\n生温くて湿った息。\n\n振り返る勇気はなく、逃げるように一階まで駆け下りた。 \n\n安心してエントランスの自動ドアを出ると、ふと気づいた。 \n\n「……足音、止まってへん」 \n\nおれの背中を追うように、さっきのテンポのまま足音が続いている。\n\n周囲には誰もいないのに。\n\n駐輪場で自転車にまたがると、背後から「くすっ」と笑う声が落ちてきた。 \n\n驚いて振り返った瞬間、息が止まる。 \n\nマンションの非常階段の踊り場に、首だけをこちらに向けて笑う男が立っていた。 \n\nその男、ゆっくり……ゆっくり……階段を降りてくる。 \n\nさっきまで“遅れていた足音”と同じテンポで、爪先を床にこすりながら。'}
     ],
+
     '人怖-2000': [
       {
-        title: '完璧な同僚',
-        content: '新しく配属されてきた田中さんは、完璧だった。\n\n仕事は正確で早く、コミュニケーション能力も高い。上司からの評価も抜群で、入社三ヶ月で主任に抜擢された。\n\n私は彼女を尊敬していた。同時に、どこか違和感も感じていた。\n\n田中さんは決して失敗しない。どんな難しい案件も、まるで答えを知っているかのようにスムーズに進める。そして、いつも微笑んでいる。\n\nある日、残業で遅くまで会社にいた時、田中さんのデスクに携帯電話が置きっぱなしになっているのに気づいた。画面が点灯し、通知が見えた。\n\n「明日の会議資料完成。佐藤部長の質問パターンB-3で対応」\n「鈴木係長、来週体調不良で休む予定。代わりの人員確保済み」\n\n奇妙な内容に、思わず携帯を手に取った。メッセージの送信元は「システム」となっている。\n\n過去のメッセージを遡ると、驚くべき内容が並んでいた。\n\n社内の人間関係、取引先との交渉結果、個人の予定まで。すべてが事前に「システム」から田中さんに送られていた。\n\n背後に気配を感じて振り返ると、田中さんが立っていた。いつもの笑顔で。\n\n「見ちゃいましたか」\n\n彼女の声は穏やかだった。でも、その目には何の感情も宿っていない。\n\n「大丈夫ですよ。あなたの情報も、システムに追加すればいいだけですから」\n\n翌日、私は田中さんと全く同じように振る舞っていた。上司の質問に完璧に答え、同僚の悩みを事前に察知し、すべての仕事を効率的にこなした。\n\n携帯には「システム」からのメッセージが届き続ける。\n\n完璧な社会人になるって、こういうことだったのか。\n\n鏡を見ると、私はいつも微笑んでいた。感情のない、完璧な笑顔で。'
-      }
+        title: '監視アパート302号室',
+        content:'大学進学で一人暮らしを始めたアパートは、築三十年の薄暗い建物だった。\n\n家賃が安い理由は、「隣人がすぐ引っ越す」という噂だったが、おれは気にしなかった。\n\n住み始めて三日目、ポストに白い封筒が入っていた。差出人不明。\n\n開けると紙切れが一枚。\n\n「夜1時になったら、ドアスコープを絶対に覗くな」とだけ書いてある。\n\n気味が悪くて捨てたが、その夜、1時ちょうどに廊下から人の気配がした。\n\nコツ……コツ……と一定のリズムで歩く音。\n\n部屋の前で止まった。\n\n息を殺しながら布団に潜ると、ドアスコープに何かが押し付けられるような、柔らかい音がした。\n\n翌朝、ドアの外に“何かの液体の跡”が円形に残っていた。\n\n管理人に聞いても「知らない」の一点張り。\n\n六日目、また封筒が届く。「絶対に覗くな。見たら終わる」。\n\n七日目。1時前から気配が濃くなっていた。\n\nコツ……コツ……\n\nまた来た。\n\n今度は止まらず、ドアを爪で撫でているような音がした。\n\nたまらず、おれは覗いてしまった。\n\n覗いた瞬間、視界いっぱいに“巨大な目”があった。\n\n血走った白目、膨れ上がった黒目。\n\n目は、おれを“知っているように”細めた。\n\nその後の記憶は途切れ途切れだ。\n\n気づいたら朝になっていて、部屋の中に誰かが立っていた。\n\nドアスコープと同じ“巨大な目”をした女だった。\n\n女は微笑みながら囁いた。\n\n「見たんやから……一緒に覗こな？」\n\nその日から、おれの302号室のドアスコープは、内側から誰かが覗いている。'      }
     ],
+
     '人外怖-1000': [
       {
-        title: '山道の祠',
-        content: '登山中、道を外れて小さな祠を見つけた。\n\n古びた木造で、赤い布が巻かれている。近づくと、中に何かの人形が祀られていた。\n\n「触っちゃダメだよ」\n\n後ろから子供の声がした。振り返ると、誰もいない。\n\n祠の中を覗き込むと、人形の目が動いた気がした。いや、確かに動いた。こっちを見ている。\n\n慌てて山を下りたが、足が震えて思うように進まない。日が暮れかけている。\n\n木々の間から、何かが私を見ている。複数の視線を感じる。\n\n「返してよ」\n\nまた子供の声。今度はすぐ耳元で。\n\n「私の体、返してよ」\n\nポケットに手を入れると、握りしめていたものがあった。祠から、無意識に持ち出してしまった小さな人形。\n\n振り返ると、子供の姿をした何かが、木の影から私を見ていた。人間の子供じゃない。目が、目があるべき場所にない。\n\n人形を投げ捨てて走った。\n\n後ろから、笑い声が追いかけてくる。'
-      }
+        title: '窓の向こうの手',
+        content:'深夜、スマホの画面に「動画が保存されました」と通知が来た。\n\nそんな設定にした覚えはない。\n\n再生すると、寝室の窓が映っている。\n\nカーテンの隙間から、細く白い“指”がちょこんと見えている。\n\n おれは鳥肌が立ちながら、窓の方を見る。\n\n誰もいない。 \n\n再び動画を再生すると、窓に映る“指”の数が増えていた。\n\n五本、十本、二十本。\n\nガラスの外側を埋め尽くすように、何十本という指がカタカタ震えている。 \n\nその瞬間、窓ガラスがコンッと叩かれた。\n\nスマホの動画でも、現実でも同時に。 \n\n動画は続く。\n\n指が、窓を内側から押しているようにじわじわと盛り上がっていく。\n\n骨がガラスを軋ませる音。 \n\n次の瞬間、カーテンの向こうで“何か”が囁いた。 \n\n「……もう撮らんでええよ。入れて」 \n\nカーテンが、風もないのに膨らんだ。'      }
     ],
+
     '人外怖-2000': [
       {
-        title: '海辺の家',
-        content: '祖母の家を相続することになった。海のすぐそばにある、古い一軒家。\n\n幼い頃、夏休みによく遊びに来た場所だ。潮の香りと、波の音。懐かしい記憶が蘇る。\n\n家の掃除を始めると、二階の部屋に奇妙なものを見つけた。壁一面に、海の絵が描かれている。いや、絵ではない。窓だ。でも、この位置に窓があるはずがない。\n\nガラスに手を触れると、冷たく湿っている。まるで本物の海水に触れているような感覚。\n\n窓の向こうで、何かが動いた。\n\n深い海の中、人影がこちらを見ている。髪が海藻のように揺れ、目が異様に大きい。人間じゃない。\n\n祖母の日記を見つけた。震える手でページをめくる。\n\n「海の者たちが、また来た。窓から入ってこようとする。塩を撒いて、経を唱えて、なんとか追い返した」\n\n「あの子は海に還してしまった。でも、時々窓から覗いている。私を恨んでいるのだろうか」\n\n最後のページには、一枚の写真が挟まっていた。\n\n幼い私が、祖母と一緒に海辺で笑っている写真。でも、波打ち際に立つ私の足元が、ぼんやりと透けていた。\n\n窓を振り返ると、あの人影が窓に手を当てている。\n\nその顔は、成長した私にそっくりだった。\n\n「帰って、おいで」\n\n海の声が聞こえる。あるいは、自分自身の声なのかもしれない。\n\n私は、本当に人間だったのだろうか。\n\n窓ガラスに手を当てると、向こう側の手と重なった。境界が、溶けていく。'
-      }
+        title: '喰われる声',
+        content:'深夜、アパートの天井裏から“誰かの声”が聞こえるようになった。\n\n最初は囁くような細い声だった。\n\n「……たすけて……たすけて……」\n\n管理会社に電話しても「小動物でしょう」と誤魔化される。\n\n三日後、声ははっきりしてきた。\n\n「上に……閉じ込められてる……助けて……」\n\n天井裏に誰かがいるはずはない。\n\nだが声は泣き続ける。\n\n無視していると、今度は床下、クローゼット、風呂場の壁……部屋中の“隙間”から声が聞こえ始めた。\n\n「見つけて……ここにいる……」\n\n怖くなり、アパートを出ようと靴を履いた瞬間、耳元で声が囁いた。\n\n「逃げんといて」\n\n振り返ると、天井の隙間から黒い“舌”のようなものが伸びていた。\n\n翌日、警察が来た。上階の住人が失踪したらしい。\n\n捜索の結果、天井裏からは何も見つからなかった。\n\nしかし夜になるとまた声がした。\n\n「たすけて……いま、たべられてる……」\n\n声の調子が明らかに変わっていた。\n\n苦しみと、にちゃにちゃと肉を噛む音が混ざっている。\n\n「……おいしい……」\n\nそれは、“助けを求める声”ではなく、“食べている側の声”だった。\n\nついに天井がミシリと沈んだ。\n\n隙間から無数の目が現れ、ぬるりとした手のようなものが降りてくる。\n\n「つぎは……きみ」\n\n声は、上の階の住人にそっくりだった。\n\nただし、人間の声帯では出ない震え方で。'      }
     ]
+
   };
 
   // デフォルトとカスタム物語を統合
@@ -103,19 +99,30 @@ export default function App() {
     
     const allStories = getAllStories();
     const key = `${genre}-${wordCount}`;
-    const storyList = allStories[key] || allStories['人怖-1000'];
+    let storyList = allStories[key];
+    // fallback if array is missing or empty (customStories may create empty arrays)
+    if (!Array.isArray(storyList) || storyList.length === 0) {
+      const fallbackKey = Object.keys(allStories).find(k => Array.isArray(allStories[k]) && allStories[k].length > 0) || '人怖-1000';
+      storyList = allStories[fallbackKey] || [];
+    }
     const randomStory = storyList[Math.floor(Math.random() * storyList.length)];
     
-    const newStory = {
+    if (!randomStory) {
+      setIsGenerating(false);
+      alert('物語が見つかりませんでした。');
+      return;
+    }
+    
+    const generatedStory = {
       ...randomStory,
       genre,
       wordCount,
-      actualCount: randomStory.content.length,
+      actualCount: randomStory.content ? randomStory.content.length : 0,
       timestamp: new Date().toLocaleString('ja-JP')
     };
     
-    setCurrentStory(newStory);
-    setHistory(prev => [newStory, ...prev]);
+    setCurrentStory(generatedStory);
+    setHistory(prev => [generatedStory, ...prev]);
     setIsGenerating(false);
   };
 
@@ -172,6 +179,10 @@ export default function App() {
     
     const key = `${genre}-${wordCount}`;
     const updated = { ...customStories };
+    if (!Array.isArray(updated[key]) || index < 0 || index >= updated[key].length) {
+      alert('該当の物語が見つかりませんでした');
+      return;
+    }
     updated[key].splice(index, 1);
     
     if (updated[key].length === 0) {
@@ -185,10 +196,18 @@ export default function App() {
   const handleEditStory = (genre, wordCount, index, story) => {
     setEditingStory({ genre, wordCount, index, ...story });
   };
-
+  
   const handleUpdateStory = () => {
+    if (!editingStory) {
+      alert('編集対象が不明です');
+      return;
+    }
     const key = `${editingStory.genre}-${editingStory.wordCount}`;
     const updated = { ...customStories };
+    if (!Array.isArray(updated[key]) || editingStory.index < 0 || editingStory.index >= updated[key].length) {
+      alert('該当の物語が見つかりませんでした');
+      return;
+    }
     updated[key][editingStory.index] = {
       title: editingStory.title,
       content: editingStory.content,
@@ -204,25 +223,25 @@ export default function App() {
     <div className="min-h-screen bg-black p-4">
       <style>{`
         @keyframes flicker {
-          0% { 
-            transform: translateX(0) scaleY(1) rotate(0deg); 
-            opacity: 0.9; 
+          0% {
+            transform: translateX(0) scaleY(1) rotate(0deg);
+            opacity: 0.9;
           }
-          25% { 
-            transform: translateX(-25px) scaleY(1.3) rotate(-25deg); 
-            opacity: 0.95; 
+          25% {
+            transform: translateX(-25px) scaleY(1.3) rotate(-25deg);
+            opacity: 0.95;
           }
-          50% { 
-            transform: translateX(0) scaleY(1) rotate(0deg); 
-            opacity: 0.9; 
+          50% {
+            transform: translateX(0) scaleY(1) rotate(0deg);
+            opacity: 0.9;
           }
-          75% { 
-            transform: translateX(25px) scaleY(1.3) rotate(25deg); 
-            opacity: 0.95; 
+          75% {
+            transform: translateX(25px) scaleY(1.3) rotate(25deg);
+            opacity: 0.95;
           }
-          100% { 
-            transform: translateX(0) scaleY(1) rotate(0deg); 
-            opacity: 0.9; 
+          100% {
+            transform: translateX(0) scaleY(1) rotate(0deg);
+            opacity: 0.9;
           }
         }
         .flame {
@@ -231,39 +250,29 @@ export default function App() {
         }
         
         @keyframes flameBounce {
-          0%, 100% { 
-            transform: scaleY(1) scaleX(1); 
+          0% {
+            transform: scaleY(1) scaleX(1);
+            opacity: 0.9;
           }
-        }
-        .flame-inner {
-          animation: flameBounce 1.2s ease-in-out infinite;
-          transform-origin: bottom center;
-        }
-        
-        @keyframes flameBounce {
-          0% { 
-            transform: scaleY(1) scaleX(1); 
-            opacity: 0.9; 
+          20% {
+            transform: scaleY(1.12) scaleX(0.95);
+            opacity: 0.95;
           }
-          20% { 
-            transform: scaleY(1.12) scaleX(0.95); 
-            opacity: 0.95; 
+          40% {
+            transform: scaleY(0.92) scaleX(1.05);
+            opacity: 0.85;
           }
-          40% { 
-            transform: scaleY(0.92) scaleX(1.05); 
-            opacity: 0.85; 
+          60% {
+            transform: scaleY(1.08) scaleX(0.97);
+            opacity: 0.92;
           }
-          60% { 
-            transform: scaleY(1.08) scaleX(0.97); 
-            opacity: 0.92; 
+          80% {
+            transform: scaleY(0.95) scaleX(1.03);
+            opacity: 0.88;
           }
-          80% { 
-            transform: scaleY(0.95) scaleX(1.03); 
-            opacity: 0.88; 
-          }
-          100% { 
-            transform: scaleY(1) scaleX(1); 
-            opacity: 0.9; 
+          100% {
+            transform: scaleY(1) scaleX(1);
+            opacity: 0.9;
           }
         }
         .flame-inner {
@@ -304,7 +313,7 @@ export default function App() {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                onKeyPress={(e) => e.key === 'Enter' && handlePasswordSubmit()}
+                onKeyDown={(e) => e.key === 'Enter' && handlePasswordSubmit()}
                 placeholder="パスワードを入力"
                 className="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-600 mb-4"
                 style={{ fontFamily: "'Yuji Syuku', serif" }}
@@ -485,7 +494,8 @@ export default function App() {
               ) : (
                 <div className="space-y-3">
                   {Object.entries(customStories).map(([key, stories]) => {
-                    const [genre, wordCount] = key.split('-');
+                    const [genre, wordCountStr] = key.split('-');
+                    const wordCount = Number(wordCountStr);
                     return stories.map((story, index) => (
                       <div key={`${key}-${index}`} className="bg-gray-800 p-4 rounded-lg border border-gray-600">
                         <div className="flex items-center justify-between mb-2">
